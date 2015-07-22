@@ -1,4 +1,6 @@
-angular.module('exampleApp', ["ionic"])
+angular.module('exampleApp', [
+  "ionic"
+])
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function(){
       if(window.cordova && window.cordova.plugins.Keyboard) {
